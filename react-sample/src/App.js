@@ -25,11 +25,13 @@ const nameArray = [
 ]
 
 function Potato({name, age, rating}){
-  return <div>
+  return (
+  <div>
     <h1>My name is {name}</h1>
     <h4>rating: {rating}/5.0</h4>
     <h2>AND I am {age} years old</h2>
   </div>
+  );
 }
 
 Potato.propTypes = {
